@@ -17,19 +17,23 @@
     display: none;
 }
 
-a {
+#navbars {
     transition: 0.1s;
 }
 
-a:hover {
+#navbars:hover {
     background-color: rgb(216, 216, 216) !important;
     border-radius: 7px;
     color: rgb(0, 0, 0) !important;
     transition: 0.15s;
 }
 
-a:active {
+#navbars:active {
     transform: translateY(1.5px);
+}
+
+a {
+    color: white;
 }
 
 .active {
@@ -99,6 +103,10 @@ img.navicon {
     transform: translateY(1px);
 }
 
+.dark-button:hover {
+    animation: none;
+}
+
 .x-button {
     border-radius: 10px;
     padding: 0px 10px 0px;
@@ -132,6 +140,20 @@ img.navicon {
 .delete-button {
     padding: 3px 25px 3px;
     background-color: #C95057;
+}
+
+.logoutbtn {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 13px;
+}
+
+.logoutbtn:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .input-select {
